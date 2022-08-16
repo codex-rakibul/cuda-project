@@ -15,7 +15,7 @@ html{
 body{
     font-family:'Titillium Web', sans-serif;
     text-rendering: optimizeLegibility;
-   
+    line-height: 1.3;
 }
 ul li{
     list-style: none;
@@ -24,6 +24,8 @@ h1{
     font-size:4.2rem ;
     color: #fff;
 }
+
+
 .clearfix::after{
     content: "";
     display: block;
@@ -79,6 +81,28 @@ h2::after{
     margin-top: 2rem;
 
 }
+h3{
+    font-size: 2.4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.box{
+    padding: 3px;
+}
+.box p{
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+/* litte-description */
+.litte-description{
+    font-size: 1.8rem;
+    width: 60%;
+    margin-left: 20%;
+    line-height: 3rem;
+}
 
 
 /*======================*/
@@ -90,6 +114,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
     height: 100vh; 
     position: relative;
     
@@ -160,6 +185,7 @@ background: rgb(197, 184, 184);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
+    background-attachment: fixed;
     height: 100vh;
 
 }
@@ -169,7 +195,7 @@ background: rgb(197, 184, 184);
 }
 
 .services-icon{
-    height: 6rem;
+    height: 12rem;
     margin-top: 4.5rem;
     margin-bottom: 3.5rem;
 }

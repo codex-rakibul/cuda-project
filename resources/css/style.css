@@ -98,7 +98,7 @@ h4{
 }
 
 /* litte-description */
-.litte-description{
+.little-description{
     font-size: 1.8rem;
     width: 60%;
     margin-left: 20%;
@@ -320,9 +320,11 @@ svg.ui-ux circle{
 .portfolio-section{
     background:linear-gradient(rgba(255, 221, 153, 0.9),rgba(255, 221, 153, 0.9)), url(img/portfolio-bg.jpg);
     background-repeat: no-repeat;
+    background-position: center top;
     background-size: cover;
-    background-position: center center;
+    background-attachment: fixed;
     text-align: center;
+    height: 140vh; 
 }
 
 
@@ -372,3 +374,57 @@ svg.ui-ux circle{
 }
 
 
+/*==========================*/
+/*   Testimonial SECTION   */
+/*=========================*/
+.testimonial{
+        background:linear-gradient(rgba(215, 70, 128, 0.9),rgba(215, 70, 128, 0.9)), url(img/testimonial-bg.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        text-align: center;
+        height: 140vh;
+        color: #fff;
+}
+.testimonial .little-description{
+    text-align: center;
+    color : #fff;
+}
+.testimonial .col:nth-child(3){
+    margin-left: 0;
+
+}
+.testimonial .col:nth-child(1),
+.testimonial .col:nth-child(2){
+   margin-top: 4rem;
+}
+.testimonial .col:nth-child(3),
+.testimonial .col:nth-child(4){
+   margin-top: 4rem;
+}
+.client-photo{
+    width: 10rem;
+    float: left;
+
+}
+.client-photo img{
+    height: 8rem;
+    border-radius: 50%;
+    margin-bottom: 3rem;
+
+
+}
+.client-review{
+    width:30rem ;
+    float: left;
+}
+.client-review p{
+    font-size: 2.1rem;
+    font-size: italic;
+    margin-top: 0;
+    margin-bottom: 2rem;
+} 
+.client-review .role{
+   color: #ffdd99;
+}

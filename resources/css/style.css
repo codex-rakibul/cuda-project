@@ -1,7 +1,6 @@
 /*======================*/
 /*BASIC SETUP*/
 /*======================*/
-
 *{
     margin: 0;
     padding: 0;
@@ -28,20 +27,19 @@ h1{
 }
 
 
-
-
 /*======================*/
 /*REUSEABLE COMPONETS*/
 /*======================*/
-
 .row{
     max-width: 114rem;
     margin:0 auto;
 }
+
 /* Section Tags */
 section{
     padding: 8rem;
 }
+
 /* Button */
 .btn:link,
 .btn:visited,
@@ -126,6 +124,7 @@ header{
     margin-top: 3.5rem;
     float: left;
 }
+
 /* Main Navigation */
 .main-nav{
 
@@ -200,6 +199,8 @@ background: rgb(197, 184, 184);
     margin-top: 12rem;
     margin-bottom: 3.5rem;
 }
+
+
 /*======================*/
 /*     Team SECTION     */
 /*======================*/
@@ -272,6 +273,8 @@ background: rgb(197, 184, 184);
     background: #393939;
     transform: rotate(360deg);
 }
+
+
 /*======================*/
 /*     Skill SECTION    */
 /*======================*/
@@ -313,6 +316,7 @@ svg.graphic-design circle{
 svg.ui-ux circle{
     stroke:#fa8e29
 }
+
 
 /*==========================*/
 /*     PORTFOLIO SECTION   */
@@ -427,4 +431,12 @@ svg.ui-ux circle{
 } 
 .client-review .role{
    color: #ffdd99;
+}
+
+
+/*==========================*/
+/*      CONTACT SECTION    */
+/*=========================*/
+.contact-section{
+    height: 100vh;
 }
